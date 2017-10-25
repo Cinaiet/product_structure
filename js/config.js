@@ -4,8 +4,7 @@
 
 
 (function (w) {
-    var apiHost='http://www.jhjvip.cn:8080';
-    //var apiHost=' http://192.168.199.107:8081';
+    var apiHost=' http://192.168.199.107:8081';
     //var apiHost=' http://192.168.199.104:8080';
 
 
