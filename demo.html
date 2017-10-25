@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>demo</title>
+    <script src="lib/lib.js"></script>
+    <script>
+        includeFile(['css/demo.css']);
+    </script>
+</head>
+<body>
+    <button id="btn">click test</button>
+    <button id="error">error</button>
+    <div id="content"></div>
+
+    <script id="con-tmp" type="text/x-handlebars-template">
+        {{#each this}}
+        <div>{{name}}</div>
+        {{/each}}
+    </script>
+    <script>
+        includeFile(['js/demo.js','js/demo_js.js']);
+    </script>
+</body>
+</html>
